@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.deber_steven.ui.theme.Deber_StevenTheme
 
 class MainActivity : ComponentActivity() {
@@ -30,8 +31,8 @@ class MainActivity : ComponentActivity() {
         }
         setContentView(R.layout.actividad_principal)
 
-        val button : Button = findViewById(R.id.btn_siguiente)
-        button.setOnClickListener {
+        val id_Constraint : ConstraintLayout = findViewById(R.id.id_Constraint)
+        id_Constraint.setOnClickListener {
             val intent = Intent(this, ActividadSecundaria::class.java)
             startActivity(intent)
         }

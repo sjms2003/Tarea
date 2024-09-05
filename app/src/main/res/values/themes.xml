@@ -3,4 +3,11 @@
 
     <style name="Theme.Deber_Steven" parent="android:Theme.Material.Light.NoActionBar" />
 
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/teal_700</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
 </resources>

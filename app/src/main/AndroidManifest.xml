@@ -14,6 +14,22 @@
         tools:targetApi="31">
         <activity
             android:name=".ActividadSecundaria"
+            android:theme="@style/Theme.Deber_Steven"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ActividadInicio"
+            android:theme="@style/AppTheme"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ActividadConfiguracion"
+            android:theme="@style/AppTheme"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ActividadInformacion"
+            android:theme="@style/AppTheme"
             android:exported="true">
         </activity>
         <activity
